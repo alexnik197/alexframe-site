@@ -310,6 +310,10 @@ template {
   display: none;
 }
 
+html {
+  font-size: 10px;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -333,7 +337,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1080px;
+  width: 108rem;
   height: 100%;
 }
 
@@ -341,7 +345,7 @@ a {
   color: #EFEFEF;
   text-align: center;
   font-family: Roboto;
-  font-size: 28px;
+  font-size: 2.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -350,7 +354,7 @@ a {
 .section-description {
   color: #EFEFEF;
   font-family: Roboto;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -361,7 +365,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 70px;
+  height: 7rem;
   background-color: #4B4B4B;
 }
 .header-container {
@@ -369,7 +373,7 @@ a {
 }
 .header-list {
   color: #EFEFEF;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 700;
   display: flex;
   flex-direction: row;
@@ -384,7 +388,7 @@ a {
 }
 
 .list-li {
-  margin-right: 60px;
+  margin-right: 6rem;
 }
 .list-li--last {
   margin-right: 0;
@@ -393,22 +397,22 @@ a {
   color: #EFEFEF;
 }
 .list-icons {
-  margin-left: 25px;
+  margin-left: 2.5rem;
 }
 .list-icons--first {
   margin-left: 0;
 }
 .list-icons__img {
-  width: 24px;
-  height: 24px;
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
 .call {
   position: absolute;
   top: 35px;
   right: 8%;
-  width: 70px;
-  height: 70px;
+  width: 7rem;
+  height: 7rem;
 }
 .call-div {
   display: flex;
@@ -417,16 +421,16 @@ a {
   width: 100%;
   height: 100%;
   background-color: #4B4B4B;
-  border: 3px solid #EFEFEF;
+  border: 0.3rem solid #EFEFEF;
   border-radius: 50%;
 }
 .call-div__img {
-  width: 40px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
 }
 
 .me {
-  padding: 30px 0 30px 0;
+  padding: 3rem 0 3rem 0;
 }
 .me-info {
   display: flex;
@@ -437,17 +441,17 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #4B4B4B;
 }
 .me__img {
-  width: 256px;
-  height: 256px;
+  width: 2.56rem;
+  height: 2.56rem;
   border-radius: 50%;
   -o-object-fit: cover;
      object-fit: cover;
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
   filter: saturate(0%) contrast(110%) brightness(110%);
 }
 
@@ -455,15 +459,15 @@ a {
   display: flex;
   justify-content: center;
   align-items: start;
-  padding: 30px 0 60px 0;
+  padding: 3rem 0 6rem 0;
   width: 100%;
-  height: 356px;
+  height: 35.6rem;
   background-image: url(/image/environment1.png);
   -o-object-position: 20% 80%;
      object-position: 20% 80%;
   background-size: cover;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 326px, 0 100%);
-          clip-path: polygon(0 0, 100% 0, 100% 326px, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 35.6rem, 0 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 35.6rem, 0 100%);
 }
 .about-background {
   background-color: rgba(75, 75, 75, 0.75);
@@ -473,7 +477,7 @@ a {
   align-items: start;
 }
 .about-header {
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
 }
 .about-description {
   display: flex;
@@ -485,7 +489,7 @@ a {
   padding: 0;
 }
 .about-text {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .portfolio {
@@ -494,7 +498,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid red;
+  border: 0.2rem solid red;
 }
 .portfolio-header {
   color: #4B4B4B;
